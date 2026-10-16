@@ -1,0 +1,6 @@
+{
+  "name": "To-Do API",
+  "version": "1.0",
+  "routes": ["/api", "/submittodoitem", "/items"],
+  "owner": "YOUR_USERNAME"
+}

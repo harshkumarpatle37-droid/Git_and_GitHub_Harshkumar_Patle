@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Git & GitHub — To-Do</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">DEVOPS ASSIGNMENT</p>
+      <h1>To-Do Item Manager</h1>
+      <p class="muted">A Flask app for practising Git workflows, branches and API integration.</p>
+    </header>
+    <section class="panel">
+      <h2>Create a task</h2>
+      <form id="todo-form">
+        <label for="itemName">Item Name</label>
+        <input id="itemName" name="itemName" maxlength="120" required placeholder="e.g. Learn Git rebase">
+        <label for="itemDescription">Item Description</label>
+        <textarea id="itemDescription" name="itemDescription" rows="4" maxlength="1000" required placeholder="Describe what needs to be done"></textarea>
+        <button type="submit">Save item</button>
+      </form>
+      <p id="message" role="status" aria-live="polite"></p>
+    </section>
+    <section class="panel">
+      <div class="section-heading"><h2>Saved items</h2><button id="refresh" class="secondary" type="button">Refresh</button></div>
+      <div id="items" class="items"><p class="muted">Loading items…</p></div>
+    </section>
+    <footer>API endpoint: <code>GET /api</code> · Submit endpoint: <code>POST /submittodoitem</code></footer>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
