@@ -3,7 +3,7 @@
 **Student name:** Harshkumar Patle  
 **Operating system:** Linux  
 **Project:** Flask To-Do application  
-**GitHub repository:** `YOUR_GITHUB_REPOSITORY_URL`
+**GitHub repository:`https://github.com/harshkumarpatle37-droid/Git_and_GitHub_Harshkumar_Patle`
 
 > Replace the repository placeholder with your real GitHub URL. Insert your own screenshots in `docs/screenshots/` and link them in this report. Do not claim a screenshot was captured unless you have captured it.
 
